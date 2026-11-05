@@ -2,15 +2,4 @@ scikit-learn==1.8.0
 pandas==2.2.3
 joblib==1.5.3
 
-## Environment Setup: Anaconda Prompt
-
-conda env create -f environment.yml
-conda activate lab06-ship-it
-python app.py
-
-
-python -m ruff format --check .
-python -m ruff check .
-python -m pytest
-
 
