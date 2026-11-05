@@ -5,7 +5,7 @@ colorFrom: blue
 colorTo: green
 sdk: gradio
 sdk_version: 6.5.1
-python_version: 3.11
+python_version: 3.14
 app_file: app.py
 pinned: false
 short_description: Will this order arrive late?
@@ -19,7 +19,7 @@ The dispatcher enters order-time attributes and sees the predicted chance of lat
 its complementary on-time chance, and whether to offer a $4 voucher. This application loads
 **the user's saved Lab 05 pipeline and threshold**, not a substitute model.
 
-**Space URL:** _Not deployed; replace with your real public Hugging Face URL._
+**Space URL: https://huggingface.co/spaces/kawsarbuet/lab06-ship-it
 
 ## How to run it locally
 
@@ -120,10 +120,7 @@ Run these after cloning the committed repository into a clean directory.
 1. Create a new repository `lab06-ship-it` and commit all files, including `models/`.
 2. Make at least **five meaningful commits** (for example, import model, add
    inference, add tests, add Gradio app, add documentation). Do not fabricate history.
-3. Create a public Hugging Face Space with Gradio SDK and Python 3.11; upload/push
+3. Create a public Hugging Face Space with Gradio SDK and Python 3.14; upload/push
    exactly these project files. Use the real Space URL in this README.
 4. Verify both links in a signed-out browser, run all three checks from a fresh
    clone, and submit the GitHub and Space URLs in Blackboard.
-
-**Source:** `AIGC5005_Lab06.pdf`, and user's earlier
-`AIGC5005_Lab05_0881_Complete.zip` (model and metadata).
