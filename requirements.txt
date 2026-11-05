@@ -57,4 +57,4 @@ conda activate lab06-ship-it
 pip install scikit-learn pandas matplotlib pytest ruff ipykernel 
 pip freeze > requirements.txt 
 pip install -e .
-
+python app.py
