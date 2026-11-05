@@ -5,7 +5,7 @@ colorFrom: blue
 colorTo: green
 sdk: gradio
 sdk_version: 6.5.1
-python_version: 3.14
+python_version: 3.11
 app_file: app.py
 pinned: false
 short_description: Will this order arrive late?
@@ -120,7 +120,7 @@ Run these after cloning the committed repository into a clean directory.
 1. Create a new repository `lab06-ship-it` and commit all files, including `models/`.
 2. Make at least **five meaningful commits** (for example, import model, add
    inference, add tests, add Gradio app, add documentation). Do not fabricate history.
-3. Create a public Hugging Face Space with Gradio SDK and Python 3.14; upload/push
+3. Create a public Hugging Face Space with Gradio SDK and Python 3.11; upload/push
    exactly these project files. Use the real Space URL in this README.
 4. Verify both links in a signed-out browser, run all three checks from a fresh
    clone, and submit the GitHub and Space URLs in Blackboard.
