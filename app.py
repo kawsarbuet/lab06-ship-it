@@ -39,9 +39,7 @@ with gr.Blocks(title="QuickBite Late Order Check") as demo:
     for feature in FEATURES:
         if feature in CATEGORY_RULES:
             choices = list(CATEGORY_RULES[feature])
-            component = gr.Dropdown(
-                choices=choices, label=feature, value=choices[0]
-            )
+            component = gr.Dropdown(choices=choices, label=feature, value=choices[0])
         else:
             minimum, maximum, whole = NUMERIC_RULES[feature]
             component = gr.Number(
