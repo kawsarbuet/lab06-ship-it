@@ -1,3 +1,22 @@
 scikit-learn==1.8.0
 pandas==2.2.3
 joblib==1.5.3
+
+## Environment Setup: Anaconda Prompt
+cd path/to/your/folder (Example: cd C:\Users\kawsa\lab06-ship-it)
+
+conda env create -f environment.yml
+conda activate lab06-ship-it
+python app.py
+
+
+python -m ruff format --check .
+python -m ruff check .
+python -m pytest
+
+(lab06-ship-it) C:\Users\kawsa\lab06-ship-it>python -m gradio app.py
+Watching: 'C:\Users\kawsa\lab06-ship-it'
+
+Watching demo: demo
+* Running on local URL:  http://127.0.0.1:7860
+* To create a public link, set `share=True` in `launch()`.
